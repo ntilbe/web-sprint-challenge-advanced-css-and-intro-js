@@ -37,8 +37,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. How would you describe preprocessing to someone new to CSS?
     CSS Preprocessors compile the code which is written using a special compiler. They then use that to create a CSS file, which can then be referenced by the main HTML document.
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 3. How would you explain the concept of a variable to someone new to programming?
+
 4. What is the purpose of using functions in code?
+    To keep code "DRY" (Do not repeat yourself).
 5. What is JSON data?
 
 

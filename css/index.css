@@ -78,8 +78,7 @@ nav a{
     color:#626262;
 }
 nav span{
-    border-left:3px solid #626262;
-
+    border-left:2px solid #626262;
 }
 /*Title Section Styles*/
 .title-container{
@@ -133,4 +132,18 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media (max-width:500px){
+
+    header nav {
+        font-size: 75%;
+        
+    }
+
+    .artists-container{
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
 }
