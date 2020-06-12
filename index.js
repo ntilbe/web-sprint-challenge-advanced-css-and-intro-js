@@ -276,10 +276,11 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 At the end, this function should console.log() the new array with information added"*/
 
 function addArtist(arr){
-
-    /* Code here */
-
+  artists.splice(artists.length, 0, arr);
+  console.log(artists);
   }
+  let newArtist = [{"id": 24, "name":"Nicole", "years":"1995 - current day", "genre":"Web Design", "nationality":"white", "bio":"I am pursuing a career as a Full Stack Developer. I am also a single parent." }];
+  addArtist(newArtist);
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
